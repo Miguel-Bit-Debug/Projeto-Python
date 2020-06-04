@@ -1,2 +1,7 @@
 def pular_linha():
-    print()
+    print('\n')
+
+
+def printDoMiguel(mensagem):
+    print(mensagem)
+

@@ -1,4 +1,7 @@
 from basePrincipal import *
-print('ghjklghj')
+
+
+printDoMiguel('Printando')
 pular_linha()
-print('dcvbnm')
+printDoMiguel('Pulei de linha')
+pular_linha()
