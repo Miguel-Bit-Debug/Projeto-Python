@@ -1,4 +1,9 @@
 from basePrincipal import *
+import requests
 
 
-codigoFonte("https://youtube.com.br")
+#site= str(input('Digite um  site: '))
+#codigoFonte(site)
+
+clientePedindoCarne = str(input('Digite a carne que você quer comer: '))
+carneMoida(clientePedindoCarne, True)

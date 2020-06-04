@@ -10,3 +10,9 @@ def printDoMiguel(mensagem):
 
 def codigoFonte(URL):
     print(requests.get(URL).text)
+
+def carneMoida(carne, moedorDeCarne):
+    if carne == ''.strip(''):
+        print('Você precisa adicionar a carne')
+    else:
+        print(f'a carne está moida, Carne: {carne}')
