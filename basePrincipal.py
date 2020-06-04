@@ -1,3 +1,6 @@
+import requests 
+
+
 def pular_linha():
     print('\n')
 
@@ -5,3 +8,5 @@ def pular_linha():
 def printDoMiguel(mensagem):
     print(mensagem)
 
+def codigoFonte(URL):
+    print(requests.get(URL).text)
